@@ -1,0 +1,52 @@
+{
+  "name": "line-emitter",
+  "description": "Library for buffering chunks of data and emitting lines",
+  "version": "0.1.0",
+  "author": "Tomaz Muraus <tomaz@tomaz.me>",
+  "contributors": [
+      {
+        "name": "Tomaz Muraus",
+        "email": "tomaz@tomaz.me",
+        "url": "http://www.tomaz.me"
+      },
+      {
+        "name": "Brandon Philips",
+        "email": "brandon@ifup.org",
+        "url": "http://ifup.org"
+      }
+  ],
+  "keywords": [
+    "line",
+    "line emitter",
+    "streams",
+    "line parser"
+  ],
+  "homepage": "https://github.com/Kami/node-line-emitter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kami/node-line-emitter"
+  },
+  "directories": {
+    "lib": "./lib",
+    "example": "./examples"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "whiskey": ">= 0.8 <= 0.9",
+    "jshint": "0.7.1"
+  },
+  "scripts": {
+    "test": "./scripts/tests.sh",
+    "lint": "./scripts/lint.sh"
+  },
+  "engines": {
+      "node": ">= 0.6.0 && < 0.11.0"
+  },
+  "main": "./lib/index.js",
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
+}
