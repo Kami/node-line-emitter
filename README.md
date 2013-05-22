@@ -2,7 +2,7 @@
 
 ## Build Status
 
-[![Build Status](https://api.travis-ci.org/Kami/luvit-line-emitter.png)](http://travis-ci.org/Kami/luvit-line-emitter)
+[![Build Status](https://api.travis-ci.org/Kami/node-line-emitter.png)](http://travis-ci.org/Kami/luvit-line-emitter)
 
 ## License
 
